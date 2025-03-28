@@ -1,0 +1,367 @@
+<section class="trail-board " data-trail-grid="true">
+        
+<!---->    
+    <div class="trail-grid grid-game-board
+         gil__grid" tabindex="0" style="--rows: 6; --cols: 6;">
+          
+      
+    <div class="trail-cell
+         trail-cell-border-top-left
+        " data-cell-idx="0">
+      <div class="trail-cell-border  trail-cell-border-top-left"></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="1">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--down trail-cell-wall--down-right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="2">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--down trail-cell-wall--down-left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="3">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="4">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+         trail-cell-border-top-right
+        " data-cell-idx="5">
+      <div class="trail-cell-border  trail-cell-border-top-right"></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="6">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="7">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="8">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="9">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          5
+        </div>
+<!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="10">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          3
+        </div>
+<!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="11">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="12">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="13">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="14">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          4
+        </div>
+<!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="15">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--down trail-cell-wall--down-right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="16">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--down trail-cell-wall--down-left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="17">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="18">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="19">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="20">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="21">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          2
+        </div>
+<!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="22">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="23">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="24">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        trail-cell--filled" data-cell-idx="25">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          1
+        </div>
+        <div class="trail-cell-segment trail-cell-segment--circle
+            trail-cell-segment--circle-start
+            
+            "></div>
+<!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="26">
+      <div class="trail-cell-border "></div>
+<!---->        <div class="trail-cell-content">
+          6
+        </div>
+<!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="27">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--right"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="28">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!---->        <div class="trail-cell-wall trail-cell-wall--left"></div>
+    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="29">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+         trail-cell-border-bottom-left
+        " data-cell-idx="30">
+      <div class="trail-cell-border  trail-cell-border-bottom-left"></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="31">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="32">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="33">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+        
+        " data-cell-idx="34">
+      <div class="trail-cell-border "></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+          
+      
+    <div class="trail-cell
+         trail-cell-border-bottom-right
+        " data-cell-idx="35">
+      <div class="trail-cell-border  trail-cell-border-bottom-right"></div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!---->    </div>
+  
+    
+    </div>
+  
+  
+      </section>
