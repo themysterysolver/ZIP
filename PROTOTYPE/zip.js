@@ -42,8 +42,8 @@ let directions=[[0,1],[1,0],[0,-1],[-1,0]];
 let new_idx=((r,c)=>r*size+c);
 console.log(new_idx(0,1),new_idx(2,0));
 
-function is_safe(nx,ny,nidx,path){
-    if(nx<0 || ny<0||nx>=size||ny>=size||path.get(nidx)!==null){
+function is_safe(nx,ny,nidx,path,dest){
+    if(nx<0 || ny<0||nx>=size||ny>=size||path.get(nidx)!==null){ //||(idx_num.has(nidx) &&  idx_num.get(nidx)!==dest
         return false;
     }
     return true;
@@ -78,6 +78,7 @@ path.set(numStr_idx.get(last),1);
 console.log(path);
 console.log("------------------helper functions----------------------------")
 
+
 function backtrack(idx,dest,path){
     console.log(idx,dest,path)
     console.log("----------------------------------------")
@@ -86,9 +87,12 @@ function backtrack(idx,dest,path){
             if(won(path)){
                 result=structuredClone(path);
             }
-            return;
+            return true;
         }
-        backtrack(idx,(parseInt(dest,10)+1).toString(),path);
+        return backtrack(idx,(parseInt(dest,10)+1).toString(),path);
+    }
+    else if(idx_num.has(idx) && parseInt(idx_num.get(idx))-1!==parseInt(dest)){
+        return false;
     }
     else{
         let x=get_row(idx);
@@ -97,13 +101,16 @@ function backtrack(idx,dest,path){
             let nx=x+dx;
             let ny=y+dy;
             let nidx=new_idx(nx,ny);
-            if(is_safe(nx,ny,nidx,path)){
+            if(is_safe(nx,ny,nidx,path,dest)){
                 path.set(idx,nidx);
-                backtrack(nidx,dest,path);
+                if(backtrack(nidx,dest,path)){
+                    return true;
+                }
                 path.set(idx,null);
             }
         }
     }
+    return false;
 }
 backtrack(start,"2",path);
 console.log(result);
