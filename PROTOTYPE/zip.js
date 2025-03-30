@@ -32,8 +32,8 @@ for(let i=0;i<size*size;i++){
     path.set(i,null);
 }
 
-path.set(size*size-1,1);
-console.log(path);
+//path.set(size*size-1,1); THE BUGGG!
+
 
 console.log(get_row(12),get_col(12));
 
@@ -52,6 +52,7 @@ function is_safe(nx,ny,nidx,path){
 
 
 result=new Map();
+
 let last=Math.max(...[...idx_num.values()].map(Number)).toString()
 console.log("LAST:",last);
 
@@ -63,12 +64,24 @@ let won=((path)=>{
     }
     return true;
 });
+
+let numStr_idx=new Map();
+let rev=(()=>{
+    for(let [key,val] of idx_num){
+      numStr_idx.set(val,key);  
+    }
+});
+rev();
+path.set(numStr_idx.get(last),1);
+
+
+console.log(path);
 console.log("------------------helper functions----------------------------")
 
 function backtrack(idx,dest,path){
     console.log(idx,dest,path)
     console.log("----------------------------------------")
-    if(idx_num.has(idx) && idx_num.get(idx)===dest){[]
+    if(idx_num.has(idx) && idx_num.get(idx)===dest){
         if(dest===last){
             if(won(path)){
                 result=structuredClone(path);
@@ -93,4 +106,4 @@ function backtrack(idx,dest,path){
     }
 }
 backtrack(start,"2",path);
-console.log(path);
+console.log(result);
