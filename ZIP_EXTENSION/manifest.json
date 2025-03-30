@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Zip solver",
+    "version": "1.0",
+    "description": "Solves LinkedIn's daily ZIP game without sigin",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://www.linkedin.com/*"],
+    "action": {
+      "default_popup": "pop.html"
+    }
+  }
