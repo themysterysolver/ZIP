@@ -20,5 +20,9 @@ function solveIt(){
         }
     })
     console.log(idx_num)
+    
+    let size=Math.floor(Math.sqrt(content.length));
+    console.log(size);
+    console.log("----------------CHECKPOINT1--I/P----------")
 
 }
