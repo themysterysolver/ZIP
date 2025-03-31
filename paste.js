@@ -94,7 +94,7 @@ let display_path=((path)=>{
     if(path.get(new_start)===null){
         return false;
     }
-    let str=start.toString()+"->";
+    let str="";
     while(path.get(new_start)!==null){
         str+=path.get(new_start).toString()+"->"
         new_start=path.get(new_start);
@@ -148,3 +148,33 @@ console.log("GAME OVER:");
 console.log("DAIODJAD");
 console.log("FINAL ANS",display_path(path));
 
+console.log("-------------------------GAME LOGIC--------------------------------");
+
+function clickIndex(index){
+    let tile = iframe.querySelector(`[data-cell-idx="${index}"]`);
+
+    if (tile) {
+        console.log(`Clicking tile with index ${index}`);
+
+        function clickElement(element) {
+            let down = new MouseEvent("mousedown", { bubbles: true, cancelable: true });
+            let up = new MouseEvent("mouseup", { bubbles: true, cancelable: true });
+            let click = new MouseEvent("click", { bubbles: true, cancelable: true });
+
+            element.dispatchEvent(down);
+            element.dispatchEvent(up);
+            element.dispatchEvent(click);
+        }
+
+        clickElement(tile);
+        setTimeout(() => clickElement(tile), 100);
+    } else {
+        console.log("Tile not found!");
+    }
+}
+let final_str=display_path(path);
+let final_idx=final_str.split("->").filter(Boolean).map(Number);
+console.log(final_idx);
+for(i=0;i<final_idx.length;i++){
+    clickIndex(final_idx[i]);
+}
