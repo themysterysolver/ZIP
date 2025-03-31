@@ -105,7 +105,7 @@ let display_path=((path)=>{
     if(path.get(new_start)===null){
         return false;
     }
-    let str=start.toString()+"->";
+    let str="";
     while(path.get(new_start)!==null){
         str+=path.get(new_start).toString()+"->"
         new_start=path.get(new_start);
