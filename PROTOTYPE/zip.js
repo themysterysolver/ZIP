@@ -37,7 +37,7 @@ for(let i=0;i<size*size;i++){
 
 console.log(get_row(12),get_col(12));
 
-let directions=[[0,1],[1,0],[0,-1],[-1,0]];
+let directions=[[0,1],[1,0],[0,-1],[-1,0]];//RIGHT DOWN LEFT UP
 
 let new_idx=((r,c)=>r*size+c);
 console.log(new_idx(0,1),new_idx(2,0));
@@ -49,7 +49,7 @@ console.log("LAST:",last);
 
 let won=((path)=>{
     for(let [key,val] of path){
-        if(val===null){
+        if(val===null && key!=numStr_idx.get(last)){
             return false;
         }
     }
@@ -63,7 +63,7 @@ let rev=(()=>{
     }
 });
 rev();
-path.set(numStr_idx.get(last),1);
+//path.set(numStr_idx.get(last),1);
 
 let display_path=((path)=>{
     let new_start=start;
@@ -117,5 +117,7 @@ function backtrack(idx,dest,path){
     return false;
 }
  
-backtrack(start,"1",path);
-console.log(result);
+console.log("BACKTRACK RESULT:",backtrack(start,"1",path));
+console.log("GAME OVER:");
+console.log("DAIODJAD");
+console.log("FINAL ANS",display_path(path));
